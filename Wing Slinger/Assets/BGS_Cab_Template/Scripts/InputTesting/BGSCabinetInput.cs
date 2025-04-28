@@ -40,7 +40,7 @@ public partial class @BGSCabinetInput: IInputActionCollection2, IDisposable
                     ""name"": ""BottomRow1"",
                     ""type"": ""Button"",
                     ""id"": ""896e22ee-fcff-4576-9e40-ee2b8860ea64"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -58,7 +58,7 @@ public partial class @BGSCabinetInput: IInputActionCollection2, IDisposable
                     ""name"": ""TopRow1"",
                     ""type"": ""Button"",
                     ""id"": ""8d468531-548b-4ae1-beac-c13ae1b54992"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -803,7 +803,7 @@ public partial class @BGSCabinetInput: IInputActionCollection2, IDisposable
                     ""name"": ""New action"",
                     ""type"": ""Button"",
                     ""id"": ""9c2c3f5a-f174-4235-8528-d221c67fa494"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
