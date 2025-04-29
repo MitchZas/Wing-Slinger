@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3509b72baa986f84ea03add68e4b09e5
+guid: bf141e8727d16ff408a25e8809d04a4d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 277614068515286978
-    second: Checkerboard_0
+      213: -5117297258201350427
+    second: BlackCheckerboard_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Checkerboard_0
+      name: BlackCheckerboard_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cf218246884ad300800000000000000
-      internalID: 277614068515286978
+      spriteID: 5eef3da9145bbf8b0800000000000000
+      internalID: -5117297258201350427
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Checkerboard_0: 277614068515286978
+      BlackCheckerboard_0: -5117297258201350427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
