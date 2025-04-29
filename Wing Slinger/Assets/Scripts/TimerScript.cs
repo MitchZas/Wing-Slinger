@@ -5,6 +5,8 @@ public class TimerScript : MonoBehaviour
 {
     private float currentTime = 0f;
     private int seconds;
+
+    public WingScript wingScript;
     // Update is called once per frame
     void Update()
     {
@@ -36,6 +38,14 @@ public class TimerScript : MonoBehaviour
     {
         int waitTimer = 7;
         if (seconds == waitTimer)
+        {
+            Debug.Log("GAME OVER");
+        }
+    }
+
+    void WinginWindow()
+    {
+        if (wingScript.isActive && seconds == 6)
         {
             Debug.Log("GAME OVER");
         }
