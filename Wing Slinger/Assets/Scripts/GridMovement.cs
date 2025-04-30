@@ -7,12 +7,15 @@ public class GridMovement : MonoBehaviour
     [SerializeField] private float moveDuration = 0.1f;
     [SerializeField] private float gridSize = 1f;
 
+    private SpriteRenderer waiterSpriteRenderer;
+
+
 
     private bool isMoving = false;
     
     void Start()
     {
-        
+        waiterSpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -39,10 +42,12 @@ public class GridMovement : MonoBehaviour
             }
             else if (inputFunction(KeyCode.LeftArrow) || inputFunction(KeyCode.A))
             {
+                waiterSpriteRenderer.flipX = false;
                 StartCoroutine(Move(Vector2.left));
             }
             else if (inputFunction(KeyCode.RightArrow) || inputFunction(KeyCode.D))
             {
+                waiterSpriteRenderer.flipX = true;
                 StartCoroutine(Move(Vector2.right));
             }
         }
