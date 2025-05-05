@@ -11,6 +11,9 @@ public class WingSpawn : MonoBehaviour
     private float wing1x = 4.57f;
     private float wing1y = 3.59f;
 
+    float elapsedTime;
+    float wingTimer = 3f;
+
     public bool isActive;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,6 +31,11 @@ public class WingSpawn : MonoBehaviour
         {
             SpawnWing();
         }
+
+       if (isActive)
+        {
+
+        }
     }
 
     private IEnumerator WingMaker()
@@ -40,6 +48,12 @@ public class WingSpawn : MonoBehaviour
     public void SpawnWing()
     {
         GameObject w = Instantiate(wingPrefab) as GameObject;
+        elapsedTime += Time.deltaTime;
+        if (elapsedTime > wingTimer)
+        {
+            Debug.Log("GAME OVER");
+        }
         w.transform.position = new Vector2(wing1x, wing1y);
+        isActive = true;
     }
 }
