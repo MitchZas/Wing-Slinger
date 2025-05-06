@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Wing
   - Wall
+  - WB1
+  - WB2
+  - WB3
+  - WB4
   layers:
   - Default
   - TransparentFX

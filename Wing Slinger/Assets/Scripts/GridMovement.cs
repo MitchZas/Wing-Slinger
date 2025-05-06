@@ -40,16 +40,16 @@ public class GridMovement : MonoBehaviour
             {
                 StartCoroutine(Move(Vector2.down));
             }
-            else if (inputFunction(KeyCode.LeftArrow) || inputFunction(KeyCode.A))
-            {
-                waiterSpriteRenderer.flipX = false;
-                StartCoroutine(Move(Vector2.left));
-            }
-            else if (inputFunction(KeyCode.RightArrow) || inputFunction(KeyCode.D))
-            {
-                waiterSpriteRenderer.flipX = true;
-                StartCoroutine(Move(Vector2.right));
-            }
+            //else if (inputFunction(KeyCode.LeftArrow) || inputFunction(KeyCode.A))
+            //{
+            //    waiterSpriteRenderer.flipX = false;
+            //    StartCoroutine(Move(Vector2.left));
+            //}
+            //else if (inputFunction(KeyCode.RightArrow) || inputFunction(KeyCode.D))
+            //{
+            //    waiterSpriteRenderer.flipX = true;
+            //    StartCoroutine(Move(Vector2.right));
+            //}
         }
    }
 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3271de86992eaf842b4991652b8e29dd
+guid: ab8305736086f6b4a8633cfe82a84d49
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8624186063180447714
-    second: emtpy_basket_0
+      213: -4046292529879456134
+    second: Bigger_basket_with_wings_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: emtpy_basket_0
+      name: Bigger_basket_with_wings_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5
-        width: 16
-        height: 8
+        y: 13
+        width: 32
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e10414be77cb05880800000000000000
-      internalID: -8624186063180447714
+      spriteID: a76e73bd16ea8d7c0800000000000000
+      internalID: -4046292529879456134
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      emtpy_basket_0: -8624186063180447714
+      Bigger_basket_with_wings_0: -4046292529879456134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
